@@ -1,0 +1,16 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa",
+      "name": "ReportState",
+      "payloadVersion": "3",
+      "messageId": "test-report",
+      "correlationToken": "test-correlation"
+    },
+    "endpoint": {
+      "scope": { "type": "BearerToken", "token": "test-token" },
+      "endpointId": "SOSTITUISCI_CON_DSN"
+    },
+    "payload": {}
+  }
+}

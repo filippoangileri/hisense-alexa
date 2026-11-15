@@ -1,0 +1,18 @@
+{
+  "directive": {
+    "header": {
+      "namespace": "Alexa.ThermostatController",
+      "name": "SetTargetTemperature",
+      "payloadVersion": "3",
+      "messageId": "test-settemp",
+      "correlationToken": "test-correlation"
+    },
+    "endpoint": {
+      "scope": { "type": "BearerToken", "token": "test-token" },
+      "endpointId": "SOSTITUISCI_CON_DSN"
+    },
+    "payload": {
+      "targetSetpoint": { "value": 24.0, "scale": "CELSIUS" }
+    }
+  }
+}
